@@ -3,7 +3,7 @@
 # NIM: 20250040084
 
 """
-Program kalkulator keuangan sederhana dengan 5 fitur:
+Tugas Dasar Pemrograman dengan 5 fitur:
 1. Split Bill Nongkrong - Membagi tagihan dengan pajak
 2. Konversi Waktu Freelance - Menghitung bayaran berdasarkan waktu kerja
 3. Estimasi BBM - Menghitung biaya bahan bakar perjalanan
@@ -201,7 +201,7 @@ def main():
     Fungsi utama program yang menampilkan menu dan menangani pilihan user.
     """
     print("="*60)
-    print("         PROGRAM KALKULATOR KEUANGAN SEDERHANA")
+    print("         TUGAS DASAR PEMROGRAMAN")
     print("              WEEK 2 ASSIGNMENT - PYTHON")
     print("="*60)
     print("Nama: Anmas Prabuokto")
@@ -234,7 +234,8 @@ def main():
             penyusutan()
         elif pilihan == "0":
             print("\n" + "="*50)
-            print("         TERIMA KASIH TELAH MENGGUNAKAN PROGRAM")
+            print("         TERIMA KASIH TELAH MENGGUNAKAN")
+            print("           TUGAS DASAR PEMROGRAMAN")
             print("="*50)
             break
         else:

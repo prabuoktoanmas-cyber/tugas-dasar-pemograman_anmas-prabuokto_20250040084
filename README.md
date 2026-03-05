@@ -1,4 +1,4 @@
-# Week 2 Assignment
+# 🧮 Tugas Dasar Pemrograman - Week 2 Assignment
 
 ## 📋 Informasi Mahasiswa
 - **Nama**: Anmas Prabuokto
@@ -11,7 +11,7 @@
 
 ## 🎯 Deskripsi Program
 
-Program kalkulator keuangan sederhana yang dibuat dengan bahasa Python untuk memenuhi tugas Week 2 mata kuliah Dasar Pemograman. Program ini menyediakan **5 fitur utama** untuk menghitung berbagai aspek keuangan sehari-hari dengan interface yang user-friendly dan validasi input yang ketat.
+**Tugas Dasar Pemrograman** yang dibuat dengan bahasa Python untuk memenuhi tugas Week 2 mata kuliah Dasar Pemograman. Program ini menyediakan **5 fitur utama** untuk menghitung berbagai aspek keuangan sehari-hari dengan interface yang user-friendly dan validasi input yang ketat.
 
 ---
 
@@ -171,7 +171,7 @@ week2_assigment.py
 ### Menu Utama
 ```
 ============================================================
-         PROGRAM KALKULATOR KEUANGAN SEDERHANA
+         TUGAS DASAR PEMROGRAMAN
               WEEK 2 ASSIGNMENT - PYTHON
 ============================================================
 Nama: Anmas Prabuokto
@@ -307,7 +307,7 @@ Dalam pembuatan program ini, penulis telah mempelajari dan mengimplementasikan:
 
 ---
 
-**Terima kasih telah menggunakan Program Kalkulator Keuangan Python! 🎉**
+**Terima kasih telah menggunakan Tugas Dasar Pemrograman! 🎉**
 
 ---
 
