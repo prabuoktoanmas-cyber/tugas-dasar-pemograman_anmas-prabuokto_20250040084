@@ -1,0 +1,2 @@
+# tugas-dasar-pemograman_anmas-prabuokto_20250040084
+week2_assigment
