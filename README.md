@@ -1,164 +1,94 @@
-# 🧮 Tugas Dasar Pemrograman - Week 2 Assignment
+# Tugas Dasar Pemrograman - Week 2 Assignment
 
-## 📋 Informasi Mahasiswa
-- **Nama**: Anmas Prabuokto
-- **NIM**: 20250040084
-- **Mata Kuliah**: Dasar Pemograman
-- **Week**: 2
-- **Bahasa Pemograman**: Python 3.x
+## Informasi Mahasiswa
+Nama : Anmas Prabuokto  
+NIM  : 20250040084  
+Mata Kuliah : Dasar Pemograman  
 
 ---
 
-## 🎯 Deskripsi Program
-
-**Tugas Dasar Pemrograman** yang dibuat dengan bahasa Python untuk memenuhi tugas Week 2 mata kuliah Dasar Pemograman. Program ini menyediakan **5 fitur utama** untuk menghitung berbagai aspek keuangan sehari-hari dengan interface yang user-friendly dan validasi input yang ketat.
-
----
-
-## ✨ Fitur Program
-
-### 1. 💰 Split Bill Nongkrong
-Menghitung pembagian tagihan nongkrong dengan pajak restoran 10%.
-
-**Input:**
-- Total tagihan (Rp)
-- Jumlah orang yang ikut
-
-**Output:**
-- Total tagihan awal
-- Pajak 10%
-- Total setelah pajak
-- Bayar per orang
-
-### 2. ⏰ Konversi Waktu Kerja Freelance
-Menghitung bayaran freelance berdasarkan waktu kerja yang fleksibel.
-
-**Input:**
-- Jam kerja
-- Menit kerja (0-59)
-- Upah per jam (Rp)
-
-**Output:**
-- Total waktu kerja (jam:menit)
-- Total jam dalam format desimal
-- Total bayaran
-
-### 3. 🚗 Estimasi BBM Perjalanan
-Mengestimasi biaya bahan bakar untuk perjalanan berdasarkan konsumsi kendaraan.
-
-**Input:**
-- Jarak perjalanan (km)
-
-**Output:**
-- Jarak perjalanan
-- Konsumsi BBM (1 liter per 40 km)
-- Harga BBM per liter (Rp 13,000)
-- Liter BBM dibutuhkan
-- Total biaya BBM
-
-### 4. 💼 Gaji Bersih Karyawan
-Menghitung gaji bersih karyawan setelah potongan BPJS dan pajak penghasilan.
-
-**Input:**
-- Gaji pokok (Rp)
-- Tunjangan (Rp)
-
-**Output:**
-- Gaji pokok
-- Tunjangan
-- Potongan BPJS (2%)
-- Potongan Pajak (5%)
-- Total potongan
-- Gaji bersih diterima
-
-### 5. 📉 Penyusutan Nilai Barang (Garis Lurus)
-Menghitung penyusutan nilai barang menggunakan metode garis lurus (straight-line depreciation).
-
-**Input:**
-- Harga awal barang (Rp)
-- Nilai sisa/residual (Rp)
-- Umur ekonomis (tahun)
-
-**Output:**
-- Harga awal
-- Nilai sisa
-- Umur ekonomis
-- Penyusutan per tahun
-- Nilai setelah 2 tahun
+## Deskripsi Program
+Program ini dibuat untuk memenuhi tugas Week 2 mata kuliah Dasar Pemograman. Program berisi lima pilihan perhitungan keuangan sederhana.
 
 ---
 
-## 🚀 Cara Menjalankan Program
+## Menu Program
+1. Split Bill Nongkrong  
+2. Konversi Waktu Kerja Freelance  
+3. Estimasi BBM Perjalanan  
+4. Gaji Bersih Karyawan  
+5. Penyusutan Nilai Barang  
+0. Keluar
 
-### 📋 Persyaratan Sistem
-- **Python**: Versi 3.6 atau lebih baru
-- **OS**: Windows, macOS, atau Linux
-- **Terminal/Command Prompt**: Untuk menjalankan program
+Penjelasan masing-masing menu ada di dalam program.
 
-### 📝 Langkah-langkah Instalasi dan Menjalankan:
+---
 
-1. **Clone atau Download** repository ini
-2. **Buka Terminal/Command Prompt**
-3. **Navigasi ke folder project**:
-   ```bash
-   cd tugas-dasar-pemograman_anmas-prabuokto_20250040084
-   ```
-4. **Jalankan program**:
+## Cara Menjalankan
+
+1. Pastikan Python 3 sudah terpasang.  
+2. Buka terminal dan masuk ke folder project.  
+3. Jalankan:
    ```bash
    python week2_assigment.py
    ```
-5. **Pilih menu** yang diinginkan (1-5) atau tekan 0 untuk keluar
+4. Masukkan angka menu sesuai yang diinginkan.
 
 ---
 
-## 📁 Struktur Kode
+## Contoh Penggunaan
+
+Contoh input untuk menu split bill:
 
 ```
-week2_assigment.py
-├── 📄 Header & Dokumentasi
-│   ├── Informasi mahasiswa
-│   └── Deskripsi program
-├── 🔧 Konstanta Global
-│   ├── PAJAK_SPLIT_BILL = 0.10
-│   ├── KONSUMSI_BBM = 40
-│   ├── HARGA_BBM_PER_LITER = 13000
-│   ├── BPJS_RATE = 0.02
-│   └── PAJAK_PENGHASILAN = 0.05
-├── 🛠️ Fungsi Utilitas
-│   ├── get_valid_float() - Validasi input float
-│   └── get_valid_int() - Validasi input integer
-├── 🎯 Fungsi Utama Program
-│   ├── split_bill() - Split bill nongkrong
-│   ├── freelance() - Konversi waktu freelance
-│   ├── estimasi_bbm() - Estimasi BBM
-│   ├── gaji_bersih() - Hitung gaji bersih
-│   └── penyusutan() - Hitung penyusutan
-└── 🎮 main() - Fungsi utama & menu program
+1
+100000
+4
+```
+
+Maka outputnya:
+
+```
+Total tagihan awal    : Rp 100000
+Pajak (10%)           : Rp 10000
+Total setelah pajak   : Rp 110000
+Jumlah orang          : 4
+Bayar per orang       : Rp 27500
 ```
 
 ---
 
-## 🎨 Fitur Tambahan & Keunggulan
+## Struktur File
 
-### ✅ **Error Handling yang Kuat**
+`week2_assigment.py` berisi semua kode. Silakan buka file tersebut untuk melihat fungsi-fungsinya.
+
+---
+
+_program ini dibuat sendiri oleh mahasiswa untuk tugas kuliah._
+
+---
+
+## Fitur Tambahan
+
+### Error Handling
 - Validasi input yang ketat
 - Pesan error yang informatif
 - Mencegah crash program
 - Boundary checking untuk semua input
 
-### 🎯 **User Experience yang Excellent**
+### User Interface
 - Interface menu yang jelas dan menarik
 - Output terformat dengan mata uang Rupiah
 - Navigasi yang mudah dengan input sederhana
 - Pesan bantuan yang informatif
 
-### 🔧 **Kualitas Kode**
+### Kualitas Kode
 - **Modular**: Kode terstruktur dengan fungsi-fungsi terpisah
 - **Readable**: Komentar dan docstring yang lengkap
 - **Maintainable**: Konstanta untuk nilai tetap
 - **Type Hints**: Petunjuk tipe data untuk parameter
 
-### 📊 **Formatted Output**
+### Format Output
 - Angka dalam format Rupiah (Rp 100,000)
 - Decimal formatting yang konsisten
 - Layout yang rapi dan mudah dibaca
@@ -288,13 +218,13 @@ Dalam pembuatan program ini, penulis telah mempelajari dan mengimplementasikan:
 **Mahasiswa:**
 - Nama: Anmas Prabuokto
 - NIM: 20250040084
-- Email: [Email mahasiswa]
-- GitHub: [GitHub username]
+- Email: [prabuoktoanmas@gmail.com]
+- GitHub: [prabuoktoanmas-cyber]
 
 **Dosen Pengampu:**
 - Mata Kuliah: Dasar Pemograman
-- Semester: [Semester]
-- Tahun Akademik: [Tahun Akademik]
+- Semester: [2]
+- Tahun Akademik: [2026]
 
 ---
 
@@ -307,7 +237,6 @@ Dalam pembuatan program ini, penulis telah mempelajari dan mengimplementasikan:
 
 ---
 
-**Terima kasih telah menggunakan Tugas Dasar Pemrograman! 🎉**
 
 ---
 
